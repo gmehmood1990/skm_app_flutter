@@ -8,5 +8,5 @@ class User extends Equatable {
   @override
   List<Object> get props => [id];
 
-  static get empty => User('-');
+  static get empty => const User('-');
 }
